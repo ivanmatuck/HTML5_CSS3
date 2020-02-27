@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+	font-family: verdana;
+	font-size: 
+}
+
+img{
+	width: 300px;
+	height: 150px;
+	margin: 30px;
+}
+
+div{
+	position: absolute;
+	top: 230px;
+	left: 400px;
+	z-index: 2;
+	border: 5px double;
+	text-align: justify;
+	padding: 5px;
+	width: 400px;
+	height: auto;
+	visibility: hidden;/*ocultar os componentes*/
+}
+
+div img{
+	width: 150px;
+	height: 100px;
+	margin: 10px;
+	float: left;
+}
+
+#lua-cheia{
+	background-color: #F50;
+	color: #0FF;
+	border-color: #009;
+}
+
+
+#sol{
+	background-color: #0F5;
+	color: #00F;
+	border-color: #000;
+}
+
+
+#lavanda{
+	background-color: #FF0;
+	color: #F0F;
+	border-color: #F50;
+}
+

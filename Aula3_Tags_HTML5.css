@@ -1,0 +1,140 @@
+*{
+	margin:0;
+	border: 0;
+	padding: 0;
+}
+
+body{
+	font-family: verdana, arial, tahoma;
+}
+
+main{
+	position: relative;
+	width: 90%;
+	height: 700px;
+	background-color: #CCC;
+	margin: auto;
+}
+
+header{
+	position: relative;
+	width: 100%;
+	height: auto;
+	background-color: #FF0;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#esquerda{
+	position: relative;
+	width: 30%;
+	height: 500px;
+	background-color: #0FF;
+	float: left;
+}
+
+nav{
+	position: relative;
+	width: 90%;
+	height: auto;
+	background-color: #FFF;
+	margin: auto;
+}
+
+a{
+	padding: 10px;
+	text-decoration: none;
+	color: #FFF;
+	background-color: #00A;
+	display: block;
+	margin: 2px;
+	font-size: 14px;
+}
+
+a:hover{
+	background-color: #FFF;
+	color: #009;
+	transition: all 1s;
+}
+
+#direita{
+	position: relative;
+	width: 70%;
+	height: 500px;
+	background-color: #F0F;
+	float: left;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #0F0;
+	clear: left;
+}
+
+aside{
+	position: relative;
+	width: 90%;
+	height: 250px;
+	background-color: #FFF;
+	margin: auto;
+	margin-top: 20px;
+}
+
+article{
+	position: relative;
+	width: 95%;
+	height: 490px;
+	background-color: #CCC;
+	margin: auto;
+	margin-top: 5px;
+}
+
+article h1{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	background-color: #CFF;
+}
+
+p{
+	position: relative;
+	padding:5px;
+	height: 150px;
+	text-align: justify;
+	background-color: #C66;
+	font-size: 14px;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+article div{
+	position: relative;
+	width: 100%
+	height: 300px;
+	background-color: #CCF;
+	margin-top: 10px;
+}
+
+div img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

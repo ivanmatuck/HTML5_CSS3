@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Testando CSS</title>
+<style type="text/css">
+body{
+
+	font-size: 20px; /* tamanho da fonte */
+	font-family: verdana, arial, tahoma; /* tipo da fonte */
+	color: #008; /* cor da fonte */
+	background-color: #F5F5DC; /* cor do fundo */
+	background-image: url(imagens/carro1.jpg);
+	background-repeat: no-repeat; /*tira repetições da imagem no ackground*/
+	background-position: 50% 50%;
+	background-attachment: fixed; /*fixa a imagem no plano de fundo*/
+	background-size: 100%;
+}
+
+h1{
+	font-size: 60px;
+	font-family: Arial, geneva, tahoma;
+	color:#FF0;
+	font-weight: italic;
+	background-color: #000;
+	text-align: center;
+}
+
+h2{
+	font-size: 48px;
+	font-family: arial, geneva, tahoma;
+	color: #F99;
+	font-weight: bolder;
+	text-align: center;
+}
+
+h3{
+	font-size: 80px;
+	font-family: arial;
+	color: #FF0;
+	background-color: #008;
+	text-decoration: underline;
+	width: auto;
+	font-style: italic;
+}
+
+.diferente{
+	color: #008;
+	background-color: #FF0;
+}
+
+img.peq{/*classe com herança*/
+
+	width: 100px;
+
+}
+.peq{
+
+	width: 100px;
+
+}
+.med{
+
+	width: 300px;
+
+}
+.gde{
+
+	width: 600px;
+
+}
+
+a{
+	font-size: 15px;
+	color: #FFF;
+	text-decoration: none; /*tira o sublinhado*/
+	width: 100px;
+	background-color: #77F;
+	display: block; /*coloca componente um debaixo do outro*/
+
+}
+
+a:visited{
+	background-color: #0f9;
+}
+
+a:active{
+	background-color: #FC0;
+}
+a:hover{
+	background-color: #000;
+	color: #FFF;
+	transition: all 2s;
+}
+
+h4, h5, h6{
+	font-size: 1.2em;
+	color:#FC0;
+	width: 800px;
+	background-color: #060;
+	text-align: center;
+}
+
+h4{
+	margin: 100px; /*espaço para fora do componente*/
+	border: 5px;
+	border-style: solid;
+	border-color: #F00;
+}
+h5{
+	margin-left: 300px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	border: 5px;
+	border-style: double;
+	border-color: #F50;
+}
+h6{
+	margin: 5px 0px 20px 50px;/*margem sequencial começando de cima*/
+	border-left: 5px double #FF5; /*espessura, etilo e cor*/
+	border-right: 8px outset #F00;
+	border-top: 2px dotted #000;
+	border-bottom: 3px dashed #0FF;
+}
+
+
+</style>
+
+</head>
+<body>
+
+	Qualquer coisa, tipo assim: Testando estilos para a tag body
+
+	<h1> Eu sou a tag H1 </h1>
+
+	<h2 class="peq"> E eu sou a tag H2, ué... </h2>
+
+	<h3> Eu sou a tag H3 </h3>
+	<h3 class="diferente"> Eu também sou a tag H3 </h3>
+	<h3> Mas eu também sou a tag H3 </h3>
+
+	<img class="peq" src="imagens/praia.jpg"><!--tag aplicada classe com herança-->
+	<img class="med" src="imagens/praia.jpg"><!--tag aplicada classe com herança-->
+	<img class="gde" src="imagens/praia.jpg"><!--tag aplicada classe com herança-->
+
+<br> <br>
+
+<a href="#"> Link 1 </a>
+<a href="#"> Link 2 </a>
+<a href="#"> Link 3 </a>
+<a href="#"> Link 4 </a>
+<a href="#"> Link 5 </a>
+<a href="#"> Link 6 </a>
+
+<br> <br>
+
+<h4> Testando estilos para tag H4</h4>
+<h5> Testando estilos para tag H5</h5>
+<h6> Testando estilos para tag H6</h6>
+
+</body>
+</html>

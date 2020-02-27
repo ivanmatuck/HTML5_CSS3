@@ -1,0 +1,47 @@
+section{
+	width: 500px; height: 500px
+	border: solid 1px #999;
+	box-shadow: 3px 3px 10px #333;
+	margin: auto;
+}
+
+.transition{
+	width: 60px;
+	height: 60px;
+	background-color: #EEE;
+	border: solid 1px;
+	margin-left: 10px;
+	font-size: 11px;
+	text-align: center;
+}
+
+.transition:hover{
+	margin-left: 400px;
+	-webkit-transform: rotate(1440deg);
+	border-radius: 50%;
+	transition-duration: 4s;
+}
+
+#ease{
+	border-color: #F00; transition: all 4s ease;
+}
+
+#ease-in{
+	border-color: #0F0; transition:all 4s ease-in;
+}
+
+#ease-out{
+	border-color: #00F; transition: all 4s ease-out;
+}
+
+#ease-in-out{
+	border-color: #FF0; transition: all 4s ease-in-out;
+}
+
+#linear{
+	border-color: #F0F; transition: all 4s linear;
+}
+
+#awesome{
+	border: dotted 1px #333; transition: all 4s cubic-bezier(1.000, -0.530, 0.405, 1.425);
+}

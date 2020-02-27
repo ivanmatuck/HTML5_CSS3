@@ -1,0 +1,99 @@
+div{
+	width: 300px;
+	height: auto;
+	float: left;
+	border: solid 1px #333;
+}
+
+img{
+	width: 80%;
+	border: solid 1px #333;
+	padding: 10px;
+}
+
+#foto1 img{
+	-webkit-transform: rotate(50deg);
+	transition: 2s all;
+}
+
+#foto1 img:hover{
+	-webkit-transform:rotate(0deg);
+	transition: 2s all;
+}
+
+
+#foto2 img{
+	-webkit-transform: rotateX(50deg);
+	transition: 2s all;
+}
+
+#foto2 img:hover{
+	-webkit-transform:rotateX(0deg);
+	transition: 2s all;
+}
+
+#foto3 img{
+	transition-duration: 0.5s;
+}
+
+#foto3 img:hover{
+	-webkit-transform:rotateY(180deg);
+	transition: all 0.5s ease-out;
+}
+
+
+#foto4 img{
+	transition-duration: 0.5s;
+}
+
+#foto4 img:hover{
+	-webkit-transform:translate(100px, 50px);
+	transition: all 2s;
+}
+
+#foto5 img{
+	transition-duration: 0.5s;
+}
+
+#foto5 img:hover{
+	-webkit-transform:translateX(200px);
+	transition: all 2s;
+}
+
+
+#foto6 img{
+	transition-duration: 0.6s
+}
+
+#foto6 img:hover{
+	transition:all 0.3s ease-out;
+	-webkit-transform: translate(100px, 150px) rotate(180deg);
+}
+
+#foto7 img{
+	transition-duration: 2s;
+}
+
+#foto7 img:hover{
+	-webkit-transform: scale(0.5);
+	transition:all 2s;
+}
+
+#foto8 img{
+	transition-duration: 2s;
+}
+
+#foto8 img:hover{
+	-webkit-transform: scale(1.5);
+	transition:  all 2s;
+}
+
+#foto9 img{
+	transition-duration: 0.3s;
+}
+
+#foto9 img:hover{
+	transition:all 0.3s ease-out;
+	-webkit-transform: scale(1.8) translate(20px, 50px) rotate(360deg);
+}
+
