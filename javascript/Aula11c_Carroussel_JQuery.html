@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Aula 4 Tags Especificas</title>
+
+
+</head>
+	<link rel="stylesheet" type="text/css" href="Aula11c_Carroussel_JQuery.css">
+
+	<!--Make sure page contains valid doctype at the very top!-->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* Please keep this notice intact
+***********************************************/
+
+</script>
+
+<style type="text/css">
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+margin: auto;
+border: 2px solid black;
+overflow: scroll; /*leave this value alone*/
+width: 90%; /*Width of Carousel Viewer itself*/
+height: 220px; /*Height should enough to fit largest content's height*/
+-webkit-box-sizing: border-box; /* set box model so container width and height value includes any padding/border defined */
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 5px; /*margin around each panel*/
+width: 250px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then. */
+}
+
+span.paginatecircle{ /* CSS for paginate circle spans. Required */
+background: white;
+border: 2px solid black;
+border-radius: 10px;
+width: 6px;
+height: 6px;
+cursor: pointer;
+display: inline-block;
+margin-right: 4px;
+}
+
+span.paginatecircle:hover{
+background: gray;
+}
+
+span.paginatecircle.selected{
+background: black;
+}
+
+#mygallery-paginate{
+	width: 90%;
+	height: 20px;
+	background-color: #FFF;
+	margin: auto;
+	text-align: center;
+}
+
+</style>
+
+
+
+<script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:true, moveby:1, pause:3000},
+	panelbehavior: {speed:500, wraparound:true, wrapbehavior:'slide', persist:true},
+	defaultbuttons: {enable: true, moveby: 1, leftnav: ['imagens/arrowl.gif', -5, 80], rightnav: ['imagens/arrowr.gif', -20, 80]},
+	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+
+<body>
+	<main>
+		<header>		
+			<h1> Minha primeira home </h1>
+		</header>
+
+		<nav id="superior">
+			<a href="#">Link1</a>
+			<a href="#">Link2</a>
+			<a href="#">Link3</a>
+			<a href="#">Link4</a>
+			<a href="#">Link5</a>
+			<a href="#">Link6</a>
+		</nav>
+
+		<nav id="esquerda">
+			<a href="#">Link1</a>
+			<a href="#">Link2</a>
+			<a href="#">Link3</a>
+			<a href="#">Link4</a>
+			<a href="#">Link5</a>
+			<a href="#">Link6</a>
+			<a href="#">Link7</a>
+			<a href="#">Link8</a>
+			<a href="#">Link9</a>
+			<a href="#">Link10</a>
+		</nav>
+
+		<article>		
+			<h1>1914 translation by H. Rackham</h1>
+			
+<div id="mygallery" class="stepcarousel">
+<div class="belt">
+
+<div class="panel">
+<img src="imagens/praia.jpg" />
+</div>
+
+<div class="panel">
+<img src="imagens/carro1.jpg" />
+</div>
+
+<div class="panel">
+<img src="imagens/moto1.jpeg" />
+</div>
+
+<div class="panel">
+<img src="imagens/lua-cheia.jpg" />
+</div>
+
+<div class="panel">
+<img src="imagens/sol.jpg" />
+</div>
+
+</div>
+</div>
+
+
+<p id="mygallery-paginate">
+<span class="paginatecircle" data-moveby="1"></span>
+</p>
+
+
+
+			<p> But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. 
+			<br><br>
+			But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.  </p>
+
+			<section id="carrossel">
+				<div id="img1_carrossel"><img src="imagens/moto1.jpeg"></div>
+				<div id="img2_carrossel"><img src="imagens/praia.jpg"></div>
+				<div id="img3_carrossel"><img src="imagens/carro1.jpg"></div>
+			</section>
+		</article>
+
+		<aside>	
+			<img src="imagens/rj.jpg">
+		</aside>
+
+		<footer>
+			<h2>Rodapé</h2>
+		</footer>
+	</main>
+</body>
+</html>

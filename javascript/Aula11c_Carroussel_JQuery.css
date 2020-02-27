@@ -1,0 +1,178 @@
+body{
+	font-family: verdana, arial, tahoma;
+}
+
+main{
+	position: relative;
+	margin: auto;
+	width: 90%;
+	height: 900px;
+	background-color: #777;
+}
+
+header{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 100px;
+	background-color: #333;
+}
+
+header h1{
+	font-size: 50px;
+	color: #FFF;
+}
+
+#superior{
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 30px;
+	background-color: #CFC;
+}
+
+#superior a{
+	float: left;
+	width: 16.66%;
+	padding-top: 5px;
+	height: 25px;
+	background-color: #777;
+	text-decoration: none;
+	text-align: center;
+	color: #FFF;
+}
+
+#superior a:hover{
+	transition: all 1s;
+	background-color: #EEE;
+	color: #000;
+}
+
+#esquerda{
+	position: relative;
+	float: left; 
+	width: 20%;
+	height: 700px;
+	background-color: #CFF;
+}
+
+#esquerda a{
+	display: block;
+	width: 100%;
+	padding-top: 25px;
+	height: 42.5px;
+	margin: 2px 0 0 0;
+	background-color: #FAA;
+	text-decoration: none;
+	text-align: left;
+	color: #FFF;
+}
+
+#esquerda a:hover{
+	transition: all 1s;
+	background-color: #000;
+	color: #FFF;
+}
+
+article{
+	position: relative;
+	float: left;
+	width: 60%;
+	height: 700px;
+	background-color: #FFC;
+}
+
+aside{
+	position: relative;
+	float: left; 
+	padding: 2px 0 2px 0;
+	width: 20%;
+	height: 696px;
+	background-color: #CFF;
+}
+
+h1{
+	position: relative;
+	margin: auto;
+	padding: 20px 0 0 0;
+	width: 96%;
+	height: 80px;
+	text-align: center;
+}
+
+#imagem_gde{
+	position: relative;
+	margin: auto;
+	width: 96%;
+	height: 250px;
+}
+
+article p{
+	position: relative;
+	font-size: 14px;
+	margin: auto;
+	padding-top: 5px;
+	width: 96%;
+	height: 145px;
+	text-align: justify;
+}
+
+#carrossel{
+	position: relative;
+	margin: auto;
+	padding: 5px 2% 5px 2%;
+	width: 96%;
+	height: 190px;
+}
+
+#img1_carrossel{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 190px;
+	background-color: #000;
+}
+
+#img2_carrossel{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 190px;
+	margin: 0 5% 0 5%;
+	background-color: #000;
+}
+
+
+#img3_carrossel{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 190px;
+	background-color: #000;
+}
+
+footer{
+	position: relative;
+	clear: left;
+	height: auto;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	color: #000;
+	background-color: #FFA;
+}
+
+aside img{
+	width: 100%;
+	height: 100%;
+}
+
+#carrossel img{
+	width: 100%;
+	height: 100%;
+}
+
+.panel img{
+	width: 300px;
+	height: 200px;
+}
+
